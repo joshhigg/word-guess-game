@@ -36,7 +36,7 @@ header {
     border-radius: 25px;
 }
 
-#startButton {
+.startButton {
     border-radius: 8px;
     color: #13293d;
     cursor: pointer;
@@ -50,7 +50,7 @@ header {
     top: 40px;
 }
 
-#timerCard {
+.timerCard {
     background-color: #7786f5; 
     position: absolute;
     width: 80%;
@@ -64,26 +64,31 @@ header {
     flex-direction: column;
 }
 
-#wins {
+.wins {
     font-size: 25px;
     position: absolute;
     top: 40px;
     left: 50px;
 }
 
-#losses {
+.losses {
     font-size: 25px;
     position: absolute;
     top: 80px;
     left: 50px;
 }
 
-#timeLeft {
+.timeLeft {
     font-size: 75px;
 
 }
 
-#secondsRemaining {
+.secondsRemaining {
     font-size: 30px;
 
+}
+
+.wordBlanks {
+    font-size: 50px;
+    text-align: center;
 }
