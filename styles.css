@@ -1,0 +1,33 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    text-align: center;
+}
+
+.inputCard {
+    background-color: #7786f5;
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 250px;
+    left: 40px;
+}
+
+.scoreCard {
+    background-color: #f56672;
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 250px;
+    right: 35px;
+}
