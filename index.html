@@ -10,17 +10,24 @@
 </head>
 <body>
     <header>
-        <h1>Word Guessing Game!</h1>
+        <h1>Javascript Word Guessing Game!</h1>
     </div>
     <div>
         <h2>Try to guess the hidden word</h2>
     </div>
     </header> 
     <div class="inputCard">
-        <div id="inputArea"></div>
+        <button id="startButton">Start</button>
+        <div id="wordBlanks"></div>
     </div>
     <div class="scoreCard">
-        <div></div>
+        <div id="wins">Wins:<span class="win"></span></div>
+        <div id="losses">Losses:<span class="lose"></span></div>
+
+        <div id="timerCard">
+            <div id="timeLeft">10</div>
+            <div id="secondsRemaining">seconds remaining</div>
+        </div>
     </div>
 
 

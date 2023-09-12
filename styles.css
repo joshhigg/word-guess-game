@@ -17,6 +17,8 @@ header {
     flex-direction: column;
     bottom: 250px;
     left: 40px;
+    border: 5px solid black;
+    border-radius: 25px;
 }
 
 .scoreCard {
@@ -30,4 +32,58 @@ header {
     flex-direction: column;
     bottom: 250px;
     right: 35px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+#startButton {
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+}
+
+#timerCard {
+    background-color: #7786f5; 
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    bottom: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#wins {
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+#losses {
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+#timeLeft {
+    font-size: 75px;
+
+}
+
+#secondsRemaining {
+    font-size: 30px;
+
 }
